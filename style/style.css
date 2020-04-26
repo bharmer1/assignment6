@@ -10,11 +10,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: "Comfortaa", sans-serif;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 15px 0px;
   line-height: 25px;
 }
@@ -27,7 +27,7 @@ p {
 *=========================================*/
 
 header {
-  background: #333;
+  background: blue;
   position: fixed;
   left: 0;
   right: 0;
@@ -42,7 +42,7 @@ header nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 50px;
   margin: 0 20px;
 }
 
@@ -54,7 +54,7 @@ header nav a {
 *=========================================*/
 
 .hero-image-section {
-  background-image: url('../images/hero-image.jpg');
+  background-image: url("../images/hero-image.jpg");
   background-attachment: fixed;
   background-size: cover;
   padding: 200px 0;
@@ -108,7 +108,7 @@ header nav a {
 *
 *=========================================*/
 .section-break {
-  background: url('../images/background.jpg');
+  background: url("../images/background.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: bottom;
@@ -145,7 +145,7 @@ header nav a {
   border-radius: 3px;
 }
 
-.city:nth-child(even){
+.city:nth-child(even) {
   background: #f2f2f2;
 }
 
@@ -156,7 +156,7 @@ header nav a {
 *
 *=========================================*/
 .section-break-bottom {
-  background: url('../images/background-lower.jpg');
+  background: url("../images/background-lower.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: bottom;
