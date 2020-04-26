@@ -18,6 +18,5 @@ const tour = {
 // While Loop
 var x = 0;
 while (x < 5) {
-  console.log("Times running through the loop x");
-  x++;
+  console.log(`Times running through the loop ${x++}`);
 }
